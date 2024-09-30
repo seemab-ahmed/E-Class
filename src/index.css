@@ -1,0 +1,57 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap");
+
+
+
+th{
+  max-width: 120px;
+  text-align: center;
+}
+
+td {
+  max-width: 120px;
+  text-align: center;
+  
+
+}
+tr {
+  margin-top: 5px !important;
+}
+td span {
+  padding-inline: 20px ;
+}
+
+.tablestyle {
+    margin: 5px !important;
+    text-align: center;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+header .container {
+  max-width: 1440px;
+}
+
+.cl-card {
+  transition: 0.4s;
+}
+
+.cl-card:hover {
+  background-color: #06BBCC;
+}
+.cl-card:hover svg {
+  background-color: #fff;
+  color: #06BBCC;
+}
+
+.cl-card:hover h5,
+.cl-card:hover p {
+  color: #fff;
+}
